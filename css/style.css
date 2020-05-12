@@ -1,0 +1,141 @@
+body{
+    font-family: Arial, Helvetica, sans-serif, Regular;
+}
+#menu{
+    background: rgba(255, 255, 255, 1);
+}
+.logo-menu img{
+    width: 100%;
+    border-radius: 50%;
+}
+.logo-menu{
+    width: 5%;
+}
+.navbar-nav li a{
+    text-transform: uppercase;
+    padding-left: 17px !important;
+    padding-right: 17px !important;
+    letter-spacing: 1px;
+    font-weight: 20px;
+    font-weight: 700 !important;
+    color: #1c1c1c !important;
+}
+.navbar-nav li a:hover{
+    color: red !important;
+    transition: all 0.5s ease-in-out;
+}
+/*font*/
+@font-face{
+    src: url(../fonts/Open_Sans/OpenSans-Regular.ttf);
+    font-family: Regular;
+}
+.section-background{
+    background-image: url(../img/2.jpg);
+    height: auto;
+    z-index: 10;
+    width: 100%;
+}
+.responsive-image{
+    max-width: 100%;
+    height: auto;
+}
+.section-service{
+    padding: 7rem 0rem;
+    text-align: center;
+}
+.page-section{
+    position: relative;
+    overflow: hidden;
+}
+.page-section:before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    content: " ";
+    z-index: 1;
+}
+.section-title-service{
+    margin-bottom: 40px;
+}
+.section-title-service .section-title{
+    color: black;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.section-download{
+    background-image: url(../img/background-app.jpg) ;
+    padding: 3rem 0rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
+}
+.section-download header{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.line-horizontal{
+    margin: 0 auto;
+    width: 35%;
+    height: 10px;
+    border-bottom: 2px solid #2261af
+}
+.center-block{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.section-download-app{
+    position: relative;
+}
+@media screen and (min-width: 768px){
+.section-download-app {
+    width: 500px;
+    height: 225px;
+}
+}
+@media screen and (min-width: 768px){
+.section-download-app > div {
+    float: left;
+    width: 200px;
+    text-align: center;
+}
+}
+@media screen and (min-width: 768px){
+.download-store {
+    margin-left: 90px;
+    padding-top: 50px;
+}
+}
+.download-store {
+    padding-top: 50px;
+}
+.download-qr{
+    text-align: center;
+}
+.download-qr span{
+    display: block;
+}
+.download-store img{
+    padding: 10px;
+}
+.section-download-app .download-qr :before{
+    content: "Hoặc";
+    top: 50%;
+    left: 47%;
+    position: absolute;
+}
+.section-feature{
+    padding: 50px 0px;
+    background-color: #f7f7f7;
+}
+.feature-item{
+    background: #ffffff;
+    padding: 40px;
+    margin-bottom: 30px;
+    position: relative;
+    transition: all 100ms ease-in-out;
+}
